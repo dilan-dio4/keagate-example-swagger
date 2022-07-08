@@ -3,7 +3,7 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "https://dilan-dio4.github.io/keagate-swagger-example/keagate-openapi3.json",
+    url: "https://raw.githubusercontent.com/dilan-dio4/keagate-example-swagger/main/keagate-openapi3.json",
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
